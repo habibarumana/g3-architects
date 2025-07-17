@@ -167,6 +167,7 @@ main >section {
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    
 
 }
 .fact-card {
@@ -197,11 +198,14 @@ main >section {
 }
 
 /* sponsor related styles */
-
+.our-sponsors {
+    align-items: center;
+}
 .sponsor-info {
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
+    
 }
 
 .sponsor-companies{
@@ -212,6 +216,21 @@ main >section {
 .sponsor-companies img {
     filter: grayscale(100%) ;
 }
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 120px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 
 
 /* responsive media query */
@@ -268,5 +287,10 @@ main >section {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
